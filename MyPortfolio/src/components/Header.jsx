@@ -2,22 +2,15 @@ import React, {useState} from "react"
 import "../style.css"
 import sunLight from"../assets/light.png"
 import sunDark from"../assets/dark.png"
+import htmlImg from"../assets/html1.png"
 
 
-export default function Header(){
-    const [mode, setMode] = useState(true)
-
+export default function Header({mode, changeMode}){
     
-
-    function changeMode(){
-        setMode(prevMode => !prevMode);
-        document.body.className = mode ? "dark--mode" : "light--mode";
-        console.log(document.body.classList)
-    }
  
     return(
         <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+      <nav className={`navbar navbar-expand-lg ${mode ? 'navbar-light ' : 'navbar-dark '}`}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
         about ME
@@ -41,6 +34,7 @@ export default function Header(){
         </div>
       </div>
     </nav>
+    { !mode &&<div id="modal"></div>}
     </header>
     )
 }

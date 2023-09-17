@@ -6,9 +6,9 @@ import LILogo from "../assets/Linkedin-Logo.png"
 import Fei from "../assets/fei.png"
 
 
-export default function AboutMe(){
+export default function AboutMe({mode}){
     return(
-        <div className="aboutMe--wrapper">
+        <div className={`aboutMe--wrapper ${mode ? "aboutMe--blur":""}`}>
        <Card />
        <div className="liks--wrapper">
         <a  target="_blank" href="https://github.com/MarekBs"><img className="git--logo" src={GitLogo} alt="GitHub logo" /></a>

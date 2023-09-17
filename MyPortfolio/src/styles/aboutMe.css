@@ -1,11 +1,16 @@
 .aboutMe--wrapper {
-    background-color: rgba(255,255,255, 0.1);
     padding: 3rem;
     border-radius: 12px;
-    margin: auto 5rem;
+    margin: 4rem auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+}
+
+.aboutMe--blur {
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(1px);
 }
 
 .git--logo {
@@ -30,4 +35,10 @@
   grid-template-rows: auto auto auto; /* Three rows, each with auto height */
   gap: 10px; /* Adjust the gap between cells as needed */
     
+}
+
+.card {
+    border: none !important;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
