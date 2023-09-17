@@ -26,7 +26,8 @@
 
 .liks--wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  grid-template-rows: auto auto auto; /* Three rows, each with auto height */
+  gap: 10px; /* Adjust the gap between cells as needed */
     
 }
