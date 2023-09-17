@@ -5,7 +5,7 @@ import profilePhoto from "../assets/fta.png"
 
 export default function Card(){
     return(
-        <div className="card" style={{ width: '18rem' }}>
+        <div className="card">
       <img className="card-img-top" src={profilePhoto} alt="Card image cap" />
       <div className="card-body">
         <h5 className="card-title">Marek Belis</h5>

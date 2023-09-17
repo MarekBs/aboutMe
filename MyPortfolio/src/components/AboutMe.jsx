@@ -8,7 +8,7 @@ import Fei from "../assets/fei.png"
 
 export default function AboutMe({mode}){
     return(
-        <div className={`aboutMe--wrapper ${mode ? "aboutMe--blur":""}`}>
+        <div className={`aboutMe--wrapper ${mode ? "aboutMe--blur":"aboutMe--blur-black"}`}>
        <Card />
        <div className="liks--wrapper">
         <a  target="_blank" href="https://github.com/MarekBs"><img className="git--logo" src={GitLogo} alt="GitHub logo" /></a>
