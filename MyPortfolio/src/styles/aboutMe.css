@@ -32,7 +32,8 @@
 
 .git--logo:hover {
     cursor: pointer;
-    transform: scale(1.2); 
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 
