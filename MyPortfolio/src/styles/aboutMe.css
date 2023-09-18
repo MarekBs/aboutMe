@@ -103,6 +103,20 @@ table td {
 }
 
 
+.footer--wrapper {
+    text-align: center;
+    height: 3rem;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.footer--wrapper p {
+    margin: 0;
+    align-self: center;
+}
+
 
 @media screen and (max-width: 865px) {
     .aboutMe--wrapper{

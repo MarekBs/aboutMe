@@ -4,9 +4,9 @@ import {useState} from "react"
 import Header from "./components/Header"
 import AboutMe from "./components/AboutMe"
 import Skills from "./components/Skills"
+import Footer from "./components/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
       changeMode={changeMode} />
       <AboutMe mode={mode} />
       <Skills />
+      <Footer />
 
     </>
   )
