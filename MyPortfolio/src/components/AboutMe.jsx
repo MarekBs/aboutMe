@@ -14,7 +14,6 @@ export default function AboutMe({mode}){
         <a  target="_blank" href="https://github.com/MarekBs"><img className="git--logo" src={GitLogo} alt="GitHub logo" /></a>
         <a  target="_blank" href="https://www.linkedin.com/in/marek-belis-a11591231/"><img className="git--logo" src={LILogo} alt="LinkedIn logo" /></a>
         <a  target="_blank" href="https://www.fei.stuba.sk/"><img className="git--logo" src={Fei} alt="FEI-STU logo" /></a>
-        
        </div>
        </div>
        

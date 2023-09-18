@@ -1,6 +1,7 @@
 .aboutMe--wrapper {
     padding: 3rem;
     margin: 4rem auto;
+    margin-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,11 +57,48 @@
 }
 
 /* Custom CSS for the purple background */
-.custom-purple-bg {
+.custom-dark-bg {
     background-color: rgb(29, 28, 28) !important;
     color: white !important; /* You may want to change the text color for better readability on a purple background */
   }
+
+.container{
+    max-width: 60rem !important;
+}
+
   
+.legendOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.legendOptions li {
+    padding: 0.5rem;
+    border-radius: 8px;
+}  
+
+.beginner {
+    background-color: #FFF17A !important; /* Fresh yellow */
+    color: #444 !important; /* Dark gray text */
+}
+
+.intermediate {
+    background-color: #8faae3 !important; /* Fresh sky blue */
+    color: #444 !important; /* Dark gray text */
+}
+
+.advanced {
+    background-color: #70E4D4 !important; /* Fresh mint green */
+    color: #444 !important; /* Dark gray text */
+}
+
+.expert {
+    background-color: #FF8E8E !important; /* Fresh coral red */
+    color: #444 !important; /* Dark gray text */
+}
+
 
 
 @media screen and (max-width: 865px) {
@@ -74,7 +112,12 @@
     }
 }
 
-
+@media screen and (max-width: 547px) {
+    .legendOptions{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
 
 @media screen and (max-width: 367px) {
     .liks--wrapper{
@@ -89,3 +132,4 @@
         width: 15rem;
     }
 }
+

@@ -1,21 +1,57 @@
-import React from "react"
+import React from "react";
 
-const skills = ["HTML","CSS","JavaScript","Java","Python","C","C++"]
+const skillsWithProficiency = [
+  { skill: "HTML", proficiency: "advanced" },
+  { skill: "CSS", proficiency: "intermediate" },
+  { skill: "JavaScript", proficiency: "advanced" },
+  { skill: "Java", proficiency: "intermediate" },
+  { skill: "Python", proficiency: "beginner" },
+  { skill: "C", proficiency: "intermediate" },
+  { skill: "C++", proficiency: "intermediate" },
+];
 
 
-const skillsItems = skills.map(skill => (
-     <li className="list-group-item" key={skill}>{skill}</li>
+const proficiencyLegend = {
+  "beginner": 1,
+  "intermediate": 2,
+  "advanced": 3,
+  "expert": 4, 
+};
 
+const skillsRows = skillsWithProficiency.map((skill, index) => (
+  <tr key={index} >
+    <td>{skill.skill}</td>
+    <td className={skill.proficiency}>{proficiencyLegend[skill.proficiency]}</td>
+  </tr>
 ));
 
-
 export default function Skills() {
-    return(
-        <div className="container">
-  <ul className="list-group">
-    {skillsItems}
-  </ul>
-</div>
-
-    )
+  return (
+    < >
+    <h1 className="text-center text-xl mb-4">Skills</h1>
+    <p className="text-center mb-4  text-secondary">In this section you can see my skills levels on certain programming languages</p>
+    <div className="container skills text-center">
+      <table className="table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Proficiency</th>
+          </tr>
+        </thead>
+        <tbody>
+          {skillsRows}
+        </tbody>
+      </table>
+      <div className="legend">
+        <ul className="legendOptions">
+          {Object.entries(proficiencyLegend).map(([level, number]) => (
+            <li key={number} className={level}>
+              {number}: {level}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+    </>
+  );
 }
