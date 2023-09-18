@@ -55,6 +55,13 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Custom CSS for the purple background */
+.custom-purple-bg {
+    background-color: rgb(29, 28, 28) !important;
+    color: white !important; /* You may want to change the text color for better readability on a purple background */
+  }
+  
+
 
 @media screen and (max-width: 865px) {
     .aboutMe--wrapper{
