@@ -34,7 +34,6 @@ export default function Header({mode, changeMode}){
         </div>
       </div>
     </nav>
-    { !mode &&<div id="modal"></div>}
     </header>
     )
 }

@@ -1,6 +1,7 @@
 .aboutMe--wrapper {
     padding: 3rem;
     margin: 4rem auto;
+    margin-top:10rem;
     margin-bottom: 5rem;
     display: flex;
     align-items: center;
@@ -11,12 +12,11 @@
 
 .aboutMe--blur {
     background-color: rgba(255,255,255, 0.4);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1px);
 }
 
 .aboutMe--blur-black {
-    background-color: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(2px);
+    background-color: rgba(255,255,255, 0.1);
 }
 
 .git--logo {
