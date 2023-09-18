@@ -20,7 +20,7 @@ const proficiencyLegend = {
 
 const skillsRows = skillsWithProficiency.map((skill, index) => (
   <tr key={index} >
-    <td>{skill.skill}</td>
+    <td className=" text-secondary">{skill.skill}</td>
     <td className={skill.proficiency}>{proficiencyLegend[skill.proficiency]}</td>
   </tr>
 ));
