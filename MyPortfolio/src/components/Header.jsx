@@ -10,7 +10,7 @@ export default function Header({mode, changeMode}){
  
     return(
         <header>
-      <nav className={`navbar navbar-expand-lg ${mode ? 'navbar-light ' : 'navbar-dark '}`}>
+      <nav className="navbar navbar-expand-lg navbar-dark" >
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
         about ME

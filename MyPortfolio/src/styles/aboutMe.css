@@ -12,11 +12,11 @@
 }
 
 .aboutMe--blur {
-    background-color: rgba(244, 244, 244,0.6);
+    background-color: transparent;
 }
 
 .aboutMe--blur-black {
-    background-color: rgba(11, 11, 11, 0.6);
+    background-color: transparent;
 }
 
 .git--logo {

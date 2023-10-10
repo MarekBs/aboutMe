@@ -16,8 +16,6 @@ function App() {
 
     function changeMode(){
         setMode(prevMode => !prevMode);
-        const headerStyle = document.querySelector('header').style;
-        headerStyle.backgroundColor = mode ? "rgba(0,0,0,0.4)" : "rgba(255,255,255,0.4)"
         document.getElementById("main--body").className = !mode ? "light--mode" : "dark--mode"
         
     }

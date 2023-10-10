@@ -6,6 +6,8 @@
 
 body {
   background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
 }
 
 
@@ -20,15 +22,14 @@ header {
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(255,255,255,0.4);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0,0,0,0.2) !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   font-family: 'Permanent Marker', cursive;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
-
 }
 
 .navbar-brand {
@@ -91,14 +92,14 @@ header {
 
 .light--mode {
 
- background-image: url("./assets/email-pattern.png");
- background-repeat: repeat;
+ background-image: url("./assets/forest.jpg");
+ 
 
 }
 
 .dark--mode {
-  background-image: url("./assets/bg-dark.png");
-  background-repeat: repeat;
+  background-image: url("./assets/forest_dark.png");
+  
 }
 
 
