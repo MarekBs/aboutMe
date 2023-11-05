@@ -12,8 +12,8 @@ export default function Card({mode}){
         <p className="card-text">Hello, my name is Marek and I am currently studying applied informatics at FEI STU Bratislava 3.rd year.</p>
       </div>
       <ul className="list-group list-group-flush">
-        <li className="list-group-item">Age: 22</li>
-        <li className="list-group-item">Student</li>
+        <li className="list-group-item text-secondary info">Age: 22</li>
+        <li className="list-group-item text-secondary info">Student</li>
       </ul>
     </div>
     )

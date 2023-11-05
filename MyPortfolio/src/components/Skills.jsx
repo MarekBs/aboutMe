@@ -29,7 +29,7 @@ export default function Skills({mode}) {
   return (
     < >
     <h1 className={`text-center text-xl mb-4 text-light`}>Skills</h1>
-    <p className="text-center mb-4  text-secondary">In this section you can see my skill levels in certain programming languages.</p>
+    <p className="text-center mb-4  text-light">In this section you can see my skill levels in certain programming languages.</p>
     <div className="container skills text-center">
       <table className="table">
         <thead>
