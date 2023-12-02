@@ -20,7 +20,7 @@ const proficiencyLegend = {
 
 const skillsRows = skillsWithProficiency.map((skill, index) => (
   <tr key={index} >
-    <td className=" text-secondary">{skill.skill}</td>
+    <td className="font-weight-bold">{skill.skill}</td>
     <td className={skill.proficiency}>{proficiencyLegend[skill.proficiency]}</td>
   </tr>
 ));
@@ -30,7 +30,7 @@ export default function Skills({mode}) {
     < >
     <h1 className={`text-center text-xl mb-4 text-light`}>Skills</h1>
     <p className="text-center mb-4  text-light">In this section you can see my skill levels in certain programming languages.</p>
-    <div className="container skills text-center">
+    <div className="container text-center">
       <table className="table">
         <thead>
           <tr>

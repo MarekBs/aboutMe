@@ -89,30 +89,29 @@ table td {
 }  
 
 .beginner {
-    background-color: #FFF17A !important; /* Fresh yellow */
-    color: #444 !important; /* Dark gray text */
+    background-color: #c5e384 !important; /* Light Moss Green */
 }
 
 .intermediate {
-    background-color: #8faae3 !important; /* Fresh sky blue */
-    color: #444 !important; /* Dark gray text */
+    background-color: #9cb874 !important; /* Olive Green */
 }
 
 .advanced {
-    background-color: #70E4D4 !important; /* Fresh mint green */
-    color: #444 !important; /* Dark gray text */
+    background-color: #5e7357 !important; /* Forest Green */
 }
 
 .expert {
-    background-color: #FF8E8E !important; /* Fresh coral red */
-    color: #444 !important; /* Dark gray text */
+    background-color: #bd8247 !important; /* Sienna Brown */
+
 }
+
+
 
 
 .footer--wrapper {
     text-align: center;
     height: 3rem;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     margin-top: 5rem;
@@ -121,6 +120,7 @@ table td {
 .footer--wrapper p {
     margin: 0;
     align-self: center;
+    color: white;
 }
 
 
